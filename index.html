@@ -7,37 +7,56 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Personal website of Frank Schaeske</title>
   </head>
-  <main>
+  <body>
     <header>
       <nav>
         <a href="#Contact">Contact</a>
         <a href="#Biography">Biography</a>
       </nav>
     </header>
-    <body>
-      <h1>Frank Schaeske</h1>
-      <figure>
-        <img class="photo" src="Foto.jpg" alt="Photo of Frank Schaeske" />
-        <figcaption>Photo of Frank Schaeske</figcaption>
-      </figure>
-      <section id="Contact">
+    <main>
+      <h1 class="main__title">Frank Schaeske</h1>
+      <section class="intro">
+        <figure>
+          <img
+            class="photo"
+            src="./images/Foto.jpg"
+            alt="Photo of Frank Schaeske"
+          />
+          <figcaption>Photo of Frank Schaeske</figcaption>
+        </figure>
+        <div>
+          <p>My interest</p>
+          <ul>
+            <li>Football</li>
+            <li>Running</li>
+          </ul>
+        </div>
+      </section>
+      <section>
         <h2>Contact</h2>
-        <section>
+        <section id="contact" class="contact">
           <p>Phone number: 123456</p>
           <p>E-Mail: john.doe@web.de</p>
         </section>
       </section>
-      <section>
+      <section class="links">
         <figure>
-          <img src="#" alt="GitHub Logo" />
+          <a href="https://github.com/"
+            ><img class="logo" src="./images/GitHub.png" alt="GitHub Logo"
+          /></a>
           <figcaption>GitHub</figcaption>
         </figure>
         <figure>
-          <img src="#" alt="Codepen Logo" />
+          <a href="https://codepen.io/"
+            ><img class="logo" src="./images/Codepen.png" alt="Codepen Logo"
+          /></a>
           <figcaption>Codepen</figcaption>
         </figure>
         <figure>
-          <img src="#" alt="LinkedIn Logo" />
+          <a href="https://de.linkedin.com/"
+            ><img class="logo" src="./images/LinkedIn.png" alt="LinkedIn Logo"
+          /></a>
           <figcaption>LinkedIn</figcaption>
         </figure>
       </section>
@@ -52,6 +71,6 @@
         <p>Job 2</p>
         <p>Job 3</p>
       </section>
-    </body>
-  </main>
+    </main>
+  </body>
 </html>

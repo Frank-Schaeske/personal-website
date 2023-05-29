@@ -3,5 +3,40 @@
 }
 
 body {
-  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__title {
+  background-color: lightgrey;
+  padding: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo {
+  max-width: 50%;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: lightgray;
+}
+
+.logo {
+  max-width: 50%;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
 }
